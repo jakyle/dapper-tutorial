@@ -1,0 +1,10 @@
+﻿@model CoffeesViewModel
+
+<ul>
+    @foreach (var coffee in Model.Coffees)
+    {
+        <li>
+            <p>@coffee.Name</p>
+        </li>
+    }
+</ul>
